@@ -1,0 +1,58 @@
+body {
+
+    margin: 0;
+}
+
+.container {
+
+    width: 960px;
+    align-content: center;
+    margin: 0 auto;
+
+}
+
+.clear {
+    clear: both;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+.logo-container{
+    float: left;
+    width: 150px;
+    background: #4aaaa5;
+    padding: 20px;
+}
+
+.logo-container>img {
+    width: 10px;
+}
+
+.logo-container>p {
+    width: 50px;
+    margin: 0;
+    font-size: 1.3em;
+    display: inline;
+}
+
+.menu-container{
+  float: right;
+    
+}
+
+.menu-container li {
+    display: inline;
+}
+
+.about-container {
+
+    width:  100%;
+    border: black solid 1px;
+    padding:  40px 20px;
+
+}
+ 
