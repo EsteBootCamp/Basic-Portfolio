@@ -1,6 +1,8 @@
 body {
 
     margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 
@@ -10,19 +12,13 @@ h1,h2,h3,h4, h5 {
 }
 
 .container {
-
+   margin: 0 auto;
     width: 960px;
-    margin: 0 auto;
-
 }
 
 nav ul {
     list-style: none;
 }
-
-
-
-
 
 .logo-container{
     float: left;
@@ -30,6 +26,7 @@ nav ul {
     background: #4aaaa5;
     padding: 20px;
     text-align: center;
+
 
 }
 
@@ -47,7 +44,7 @@ nav ul {
 .menu-container{
   float: right; 
   padding-top: 20px;
-    
+ 
 }
 
 .menu-container li {
@@ -75,9 +72,11 @@ nav ul {
 }
 
 footer {
-    background-color: blue;
+    background-color:#666666;
     text-align: center;
     padding: 20px;
+    border-top: solid 5px #4aaaa5;
+
 }
 
 .clear {
