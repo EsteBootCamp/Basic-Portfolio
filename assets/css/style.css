@@ -2,7 +2,9 @@ body {
 
     margin: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(images/crossline-dots.png)
+    background-image: url(../images/crossline-dots.png);
+    background-color: tan;
+  
 }
 
 
@@ -13,12 +15,13 @@ h1,h2,h3,h4, h5 {
 
 header {
     border-bottom: 2px solid #cccccc;
+    background-color: #fff;
 
 }
 
 .header-container {
-    background: #ffffff;
-    height: 104px;
+
+    height: 91px;
     margin: 0 auto;
     width:  960px;
 }
@@ -28,14 +31,17 @@ nav ul {
 }
 
 .logo{
+
     float: left;
-    width: 150px;
+    width: 250px;
     background: #4aaaa5;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    height: 70px;
 }
 
 .logo>img {
+
     width: 10px;
 }
 
@@ -56,27 +62,27 @@ nav ul {
     display: inline;
     text-decoration: none; 
     margin-right: 30px;
-    font-size: 1.1em;
+    font-size: 1em;
     border-right: 1px solid #cccccc;
     padding-right: 20px;
-    
 
 }
 
 .menu-container a {
     text-decoration: none;
-    color: #cccccc;
+    color: #9999a6;
 }
 
 
 .about-container {
 
-    border: black solid 1px;
+    border: #ccc solid 2px;
     padding:  40px 20px;
     margin: 40px auto;
     width: 920px;
     clear: both;
-
+    background-color: #fff;
+    
 }
 
 footer {
@@ -84,7 +90,19 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: solid 5px #4aaaa5;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
 
+footer p{
+    
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    font-size: 0.7em;
 }
 
 .clear {
